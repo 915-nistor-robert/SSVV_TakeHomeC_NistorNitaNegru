@@ -14,7 +14,10 @@ public class FeelingsArray {
     }
 
     public boolean checkNeighbours(int position) {
-        return (feelings[position] == -1 && (position > 0 && feelings[position - 1] == 1) && (position >= feelings.length - 1 || feelings[position + 1] == 1));
+        if(position == feelings.length - 1 && feelings[position] == -1)
+            return false;
+
+        return (feelings[position] == -1 && (position > 0 && feelings[position - 1] == 1) && (position <= feelings.length - 1 || feelings[position + 1] == 1));
     }
 
     public void insertHappyFeelings(int position) {

@@ -16,4 +16,32 @@ public class FeelingsArrayTest {
         assertEquals(-1, feelingsArray.findSadFeeling(16));
 
     }
+
+    @Test
+    public void testBeHappy() {
+
+        // random sad feelings
+        FeelingsArray feelingsArray = new FeelingsArray(new int[]{-1, 0, 1, 1, -1, 1, 0, -1,-1});
+
+        feelingsArray.beHappy();
+
+        int[] expectedFeelings =  new int[]{1, -1, 1, 0, 1, 1, -1, 1, 0, 1, -1, 1, 1, -1, 1};
+        assertArrayEquals(expectedFeelings, feelingsArray.getFeelings());
+
+        // no sad feelings
+        FeelingsArray feelingsArray1 = new FeelingsArray(new int[]{1, 0, 1, 1, 1, 1, 0, 1,1});
+        feelingsArray1.beHappy();
+
+        expectedFeelings =  new int[]{1, 0, 1, 1, 1, 1, 0, 1,1};
+        assertArrayEquals(expectedFeelings, feelingsArray1.getFeelings());
+
+        // only sad feelings
+        FeelingsArray feelingsArray2 = new FeelingsArray(new int[]{-1,-1,-1,-1});
+        feelingsArray2.beHappy();
+
+        expectedFeelings =  new int[]{1, -1, 1, -1, 1, -1, 1, 1, -1, 1};
+        assertArrayEquals(expectedFeelings, feelingsArray2.getFeelings());
+
+
+    }
 }
