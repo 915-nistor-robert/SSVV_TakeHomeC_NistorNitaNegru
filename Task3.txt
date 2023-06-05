@@ -1,0 +1,38 @@
+Description: What happened? When and where? Who else was involved? What did you do? What did other people do? What was the outcome? 
+
+Answer: We solved the tasks by working as a team. We did so before the exam. The team was made up of:
+- Nita Horia
+- Nistor Robert
+- Alexandru Negru
+
+We used the following tools:
+- Github
+- Google Docs
+- JUnit
+- IntelliJ IDEA
+- Maven
+- WhatsApp (for communication)
+
+We met at the university and at home. We also communicated via WhatsApp. We used GitHub to share the code and Google Docs to share the documentation. We used JUnit to test the code. We used IntelliJ IDEA to write the code. We used Maven to build the project.
+
+The outcome was a working project that solves the tasks.
+
+Feelings: What were you feeling during the situation? What do you think other people were feeling about the situation? How do you feel about the situation now? 
+
+Answer: We felt good all-around, and we think the other team members felt the same.
+
+Evaluation: What went well? What didn’t go well? What positive or negative things did you (or other people) contribute to the situation? 
+
+Answer: We worked well as a team. We did not have any problems. We all contributed positively to the situation.
+
+Analysis: Why did (or didn’t) things go well? What theories or research can help you better understand the situation? 
+
+Answer: Things went well because we worked well as a team. The theory that the team is more than the sum of its parts helped us understand the situation.
+
+Conclusions: What did you learn from this situation? If this situation happened again, what would you do differently? 
+
+Answer: We learned that working as a team is better than working alone. If this situation happened again, we would do the same thing, but maybe we would use a different tool for communication.
+
+Action Plan: What skills do you need to develop to handle a situation like this better? How will you develop the skills you need?
+
+Answer: We need to develop our teamwork skills. We will develop them by working on more projects together.
