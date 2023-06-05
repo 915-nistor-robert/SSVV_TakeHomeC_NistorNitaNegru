@@ -18,6 +18,19 @@ public class FeelingsArrayTest {
     }
 
     @Test
+    public void testCheckNeighbours() {
+        // white box test
+        int[] feelings = {-1, 1, -1, 0, 1};
+        FeelingsArray feelingObj = new FeelingsArray(feelings);
+
+        assertFalse(feelingObj.checkNeighbours(0)); // [x, 1, -1, 0, 1]
+        assertFalse(feelingObj.checkNeighbours(1)); // [-1, x, -1, 0, 1]
+        assertTrue(feelingObj.checkNeighbours(2)); // [-1, 1, x, 0, 1]
+        assertFalse(feelingObj.checkNeighbours(3)); // [-1, 1, -1, x, 1]
+        assertFalse(feelingObj.checkNeighbours(4)); // [-1, 1, -1, 0, x]
+    }
+
+    @Test
     public void testBeHappy() {
 
         // random sad feelings
